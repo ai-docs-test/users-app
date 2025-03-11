@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Dummy Step
         run: echo "This is a dummy action running in the production environment."
+      - name: Pause for 5 seconds
+        run: sleep 5
